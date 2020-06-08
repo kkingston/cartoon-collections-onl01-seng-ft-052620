@@ -9,7 +9,7 @@ def summon_captain_planet(veggies)
     word.capitalize}
 end
 
-def long_planeteer_calls
+def long_planeteer_calls(calls)
   {|word| word.any?(word.length > 4)}
 end
 
