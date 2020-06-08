@@ -9,8 +9,8 @@ def summon_captain_planet(veggies)
     word.capitalize}
 end
 
-def long_planeteer_calls(calls)
-  calls {|word| word.any?(word.length > 4)}
+def long_planeteer_calls
+  {|word| word.any?(word.length > 4)}
 end
 
 def find_the_cheese(array)
