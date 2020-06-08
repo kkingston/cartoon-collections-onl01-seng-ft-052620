@@ -10,7 +10,7 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls)
-  word.any? {|word| word.length > 4}
+  calls.any? {|word| word.length > 4}
 end
 
 def find_the_cheese(array)
